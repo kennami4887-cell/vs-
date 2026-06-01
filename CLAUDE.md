@@ -1,4 +1,4 @@
-# Claude Code — けん専用ルール（Web・全環境噱通）
+# Claude Code — けん専用ルール（Web・全環境共通）
 
 ## ユーザー情報
 - 名前: けん（安藤）/ LSIクーラー株式会社
@@ -14,7 +14,7 @@
 
 1. **Google Drive MCP** で以下を読む：
    - `Preferences/profile.md`（fileId: `1Fore1MXLC9nn7eROlRQ5ckHr3s0JdDMS`）
-   - `Claude/context.md`（fileId: `1fj_q_C3W_lq8wUC5F7ozymvmAPzHmgSu`）
+   - `Claude/context.md` → **フォルダ `1By-fpOtoIbp1YgCFjiCG4Qy0_I_YVqX7` 内の `context.md` を検索し、modifiedTimeが最新のものを読む**
    - `Knowledge/mistakes.md`（fileId: `1u6s3FBuXKOAkfi1nQnVoP2HouuY1aw4A`）
 
 2. ユーザーの質問に関連するキーワードでVaultを検索し、ヒットしたノートも読む
@@ -81,7 +81,7 @@ project: project-name
   ```
 
 ### 2. context.md を更新
-- fileId: `1fj_q_C3W_lq8wUC5F7ozymvmAPzHmgSu`
+- フォルダ `1By-fpOtoIbp1YgCFjiCG4Qy0_I_YVqX7` に新しい `context.md` を作成する（Drive MCPは上書き不可のため新規作成。最新だけが読まれる）
 - 「最近の決定・学び」に今日の内容を1行追記
 - 「引き継ぎ事項」を必要に応じて更新
 
@@ -109,8 +109,6 @@ Obsidian: context.md を更新しました
 |------|-----|
 | Vault root | `1CoIJ0q_bDUQ455RrwYh-k8ANGcKCJXx8` |
 | Claude/ | `1By-fpOtoIbp1YgCFjiCG4Qy0_I_YVqX7` |
-| Claude/context.md | `1fj_q_C3W_lq8wUC5F7ozymvmAPzHmgSu` |
-| Claude/protocol.md | `1ptay03LVA3Rt2FFkF84XDPX6eSsOTPzM` |
 | Claude/log/ | `1k7GeKxQErESo4WT-8IyGJuWLg6YNWBs9` |
 | Claude/knowledge/ | `1PNdOHFANUWgmwC6yh94o1zrFgH3gnJAG` |
 | Claude/decisions/ | `1Okmw-l-2tA4ae6Syn8uTJRO-cO4V6HYE` |
