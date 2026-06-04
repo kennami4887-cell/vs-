@@ -18,9 +18,10 @@
 1. `profile.md`—フォルダ `1Lx73Gai7r5bM_e-mzBt37-1vfB0fu4zT`（Preferences/）内を検索→最新を読む
 2. `context.md`—フォルダ `1By-fpOtoIbp1YgCFjiCG4Qy0_I_YVqX7`（Claude/）内を検索→最新を読む
 3. `mistakes.md`—フォルダ `1HiVZtyeEC5DZAyVtiIvnAKYIbTUvb7Ek`（Knowledge/）内を検索→最新を読む
-4. ユーザーの質問に関連するキーワードでVaultを検索し、ヒットしたノートも読む
+4. `list_recent_files`（orderBy: lastModified、pageSize: 15）で直近の活動を確認する
+5. ユーザーの質問に関連するキーワードでVaultを検索し、ヒットしたノートも読む
 
-読んだら報告：`Obsidian: profile.md・context.md・mistakes.md を読みました`
+読んだら報告：`Obsidian: profile.md・context.md・mistakes.md・最近のファイル を確認しました`
 
 **スキップ可**：「今何時?」「1+1は?」など明らかに無関係な単発質問
 
